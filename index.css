@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    /* background-color: #0000004c; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+
+#nav-prt1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+#nav img {
+    height: 100px;
+    width: 100px;
+}
+
+#nav h4 {
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#nav-prt2 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+#overlay {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 3px;
+}
+
+#overlay input {
+    background-color: #00000008;
+    padding: 10px 20px;
+    font-family: gilroy;
+    width: 25%;
+    /* margin-left: 30%; */
+    border-radius: 32px;
+    margin-top: 1.6%;
+    margin-bottom: 1%;
+    border: none;
+    margin-left: 30%;
+}
+
+#overlay #ser {
+    position: absolute;
+    padding-left: 31%;
+    padding-top: 36px;
+    font-size: 16px;
+    color: #00000067;
+}
+
+i {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#center {
+    height: 73%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* position: relative; */
+}
+
+#box1 {
+    height: 250px;
+    width: 340px;
+    position: absolute;
+    border-radius: 25px;
+    top: 38%;
+    left: 7%;
+    background: linear-gradient(to top right, rgb(243, 171, 3), rgba(255, 166, 0, 0.233));
+}
+
+#box2 {
+    height: 220px;
+    width: 330px;
+    position: absolute;
+    top: 41%;
+    border-radius: 25px;
+
+    left: 38%;
+    background: linear-gradient(to top right, rgb(243, 55, 3), rgba(255, 0, 0, 0.185));
+}
+
+#box3 {
+    height: 240px;
+    width: 330px;
+    position: absolute;
+    border-radius: 25px;
+
+    top: 38%;
+    left: 68%;
+    background: linear-gradient(to top right, rgba(3, 123, 243, 0.667), rgba(0, 140, 255, 0.16));
+}
+
+#center #img1 {
+    height: 230px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+#center #img2 {
+    height: 230px;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 44%;
+}
+
+#center #img3 {
+    height: 230px;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 73%;
+}
+
+#box1 h1 {
+    padding-top: 35%;
+    padding-left: 13%;
+    font-size: 50px;
+    font-family: "gilroy";
+    color: #fff;
+}
+
+#box1 h5 {
+    padding-left: 13%;
+    font-size: 17px;
+    font-family: "gilroy";
+    color: #fff;
+}
+
+#box2 h1 {
+    padding-top: 25%;
+    padding-left: 13%;
+    font-size: 50px;
+    font-family: "gilroy";
+    color: #fff;
+}
+
+#box2 h5 {
+    padding-left: 13%;
+    font-size: 17px;
+    font-family: "gilroy";
+    color: #fff;
+}
+
+#box3 h1 {
+    padding-top: 30%;
+    padding-left: 13%;
+    font-size: 50px;
+    font-family: "gilroy";
+    color: #fff;
+}
+
+#box3 h5 {
+    padding-left: 13%;
+    font-size: 17px;
+    font-family: "gilroy";
+    color: #fff;
+}
+
+#nav2 {
+    height: 80px;
+    width: 100%;
+    /* background-color: #0000004c; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nav2-prt1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+#nav2 h5 {
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 45px;
+    color: rgba(0, 0, 0, 0.566);
+}
+
+#nav2-prt2 {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 51px;
+}
+
+#nav2 button {
+    font-weight: 900;
+    color: #000;
+    font-family: gilroy;
+    border: none;
+    margin-left: 32px;
+    font-size: 21px;
+}
+
+#nav2 #btn2 {
+    border: none;
+    color: #000;
+    font-family: gilroy;
+    font-weight: 900;
+}
+
+#nav2 i {
+    font-weight: 800;
+}
